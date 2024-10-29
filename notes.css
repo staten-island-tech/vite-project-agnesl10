@@ -1,0 +1,25 @@
+html, body, *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+:root{ 
+    --primary: #2998ff;
+    --light-blue: #3459ff;
+    --dark-blue: #5670ff;
+    --dark-red: #f87171;
+    --light-red: #f89292;
+    --h1: 7.594rem; /*so that later when u do a separate h1 style its for all of it */
+}
+body{
+    background-color: var(--primary);
+}
+.warm{
+    --primary:var(--light-red);
+}
+.cool{
+    --prmary:var(--light-blue);
+}
+
