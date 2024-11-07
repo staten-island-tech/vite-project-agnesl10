@@ -13,7 +13,8 @@ body{
 }
 h1{
   background-color: var(--secondary);
-  background-image: url('https://images.wallpaperscraft.com/image/single/turntable_vinyl_black_and_white_946182_1920x1080.jpg');
+  background-image: url("https://wallpapercave.com/wp/wp9236274.jpg");
+  filter: grayscale(.5);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -23,14 +24,15 @@ h1{
   font-family: "Abril Fatface", serif;
   font-weight: 400;
   font-style: normal;
-  text-shadow: 4px 2px 4px grey;
+  text-shadow: 5px 1px 2px var(--third-color);
+  z-index: 1; /*makes sure text shows first*/
 }
 .card {
   background-color: var(--secondary);
-  border-radius: 3px;
+  border-radius: 7px;
   height: 50%;
   width: 30%;
-  margin: 5;
+  margin: 10px;
   padding: 5;
   justify-content: space-around;
   display: flex;
@@ -49,7 +51,11 @@ h2{
   color:black;
   font-weight: 600;
   font-size: 2rem;
+  margin: 10px;
+  text-align: center;
+  color: var(--third-color);
 }
 .image{
-  margin: 3;
+  margin: 15px;
+  border-radius: 5px;
 }

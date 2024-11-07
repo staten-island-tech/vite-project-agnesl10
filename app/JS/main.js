@@ -20,4 +20,5 @@ function createCards(record) {
   );
 }
 
+function darkMode() {}
 vinylRecords.forEach((record) => createCards(record));
