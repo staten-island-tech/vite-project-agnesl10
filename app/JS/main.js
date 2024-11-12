@@ -12,7 +12,6 @@ function createCards(record) {
     <br />
     <h3 class="relartist">Released in ${record.releaseYear} by ${record.artist}</h3>
     <h5 class="genre">${record.genre}</h5>
-    <br />
     <img class="image" src="${record.imageUrl}" alt="" />
     <br />
     <h4 class="price">${record.price}</h4>
@@ -34,3 +33,9 @@ function darkMode() {
   });
 }
 darkMode();
+
+function filterByYear() {
+  DOMSelectors.relfilter.addEventListener("click", function (record) {
+    vinylRecords.filter((record) => record.releaseYear < 2000);
+  });
+}

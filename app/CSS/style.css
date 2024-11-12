@@ -9,13 +9,16 @@ html, body, *{
   font-style: normal;
 }
 .dark{
-  background-color: var(--dark-bg);
+  --primary:var(--black);
+  --secondary:var(--blue-black);
+  --third: var(--grey);
+  --fifth: var(--light-blue);
+
 }
 body{
-  background-color: var(--light-bg);
+  background-color: var(--primary);
 }
 h1{
-  background-color: var(--light-bg);
   background-image: url("https://th.bing.com/th/id/OIP.QFCU1SgvDXKK2Kehg_SK0AAAAA?rs=1&pid=ImgDetMain");
   filter: grayscale(.7);
   background-repeat: no-repeat;
@@ -27,7 +30,7 @@ h1{
   font-family: "Abril Fatface", serif;
   font-weight: 400;
   font-style: normal;
-  text-shadow: 5px 1px 2px var(--third-color);
+  text-shadow: 5px 3px 2px var(--third);
   z-index: 1; /*makes sure text shows first*/
 }
 .card {
@@ -52,37 +55,41 @@ h1{
   justify-content: space-around;
 }
 .title{
-  color:black;
+  color: var(--third);
   font-weight: 600;
   font-size: 2rem;
   margin: 10px;
   text-align: center;
-  color: var(--third-color);
 }
 .relartist{
-  color: var(--fifth-color);
+  color: var(--fifth);
   font-size: 1.5rem;
-  margin: 1;
+  margin: 0.1;
   text-align: center;
 
 }
 .image{
-  margin: 12px;
+  margin: 10px;
+  margin-top: 3px;
   border-radius: 7px;
-  border: 4px solid var(--add-color);
+  border: 4px solid var(--hightlight);
   text-align: center;
 }
 .genre{
   margin: 5px;
   font-size: 1.5rem;
   text-align: center;
+  color: var(--third);
 }
 .price{
   margin: 1;
   font-size: 2rem;
+  color: var(--third);
+  text-align: center;
+  margin-bottom: 3px;
 }
 button{
-  background-color: var(--add-color);
+  background-color: var(--highlight);
   font-size: 2rem;
-  border-color: var(--add-color);
+  border-color: var(--highlight);
 }
