@@ -33,6 +33,10 @@ function darkMode() {
   });
 }
 darkMode();
+function clearCards() {
+  document.container.innerHTML = "";
+  createCards(record);
+}
 
 function filterByYear() {
   DOMSelectors.relfilter.addEventListener("click", function (record) {
