@@ -40,6 +40,23 @@ function clearCards() {
 
 function filterByYear() {
   DOMSelectors.relfilter.addEventListener("click", function (record) {
-    vinylRecords.filter((record) => record.releaseYear < 2000);
+    const x = vinylRecords.filter((record) => record.releaseYear < 2000)
+    clearCards(x);
   });
 }
+function filterPops() {
+  DOMSelectors.pops.addEventListener("click", function (record){
+    const pop = vinylRecords.filter((record) => record.genre.includes("pop"))
+    clearCards(pop);
+  })
+}
+function filterRock() {
+  DOMSelectors.rock.addEventListener("click", function (record) {
+    const rock = vinylRecords.filter((record) => record.genre.includes("rock"))
+    clearCards(rock);
+  })
+}
+
+filterByYear();
+filterPops();
+filterRock();

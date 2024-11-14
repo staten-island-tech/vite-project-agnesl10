@@ -8,13 +8,55 @@ html, body, *{
   font-weight: 400;
   font-style: normal;
 }
+@media screen and (max-width: 1100px) {
+  .container {
+      flex-direction: row;
+  }
+  .card {
+      width: 30%
+  }
+  .card-header {
+      font-size: 30%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .container {
+      flex-direction: row;
+  }
+  .card {
+      width: 40%
+  }
+  .card-header {
+      font-size: 90%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+      flex-direction: row;
+  }
+  .card{
+      width: 70%
+  }
+  .card-header {
+      font-size: 60%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .contianer {
+      flex-direction: column;
+  }
+  .card {
+      width: 80%
+  }
+  .card-header {
+      font-size: 30%;
+  }
+}
 .dark{
   --primary:var(--black);
   --secondary:var(--blue-black);
   --third: var(--grey);
   --fifth: var(--light-blue);
-  
-
 }
 body{
   background-color: var(--primary);
@@ -33,7 +75,6 @@ h1{
   font-weight: 400;
   font-style: normal;
   text-shadow: 5px 3px 2px var(--third);
-  z-index: 1; /*makes sure text shows first*/
 }
 .card {
   background-color: var(--secondary);
@@ -46,6 +87,10 @@ h1{
   display: flex;
   flex-direction: column;
   overflow: hidden;
+}
+.card:hover{
+  transform: scale(1.3);
+  transition: all 0.3s;
 }
 .container {
   display: flex;
@@ -91,7 +136,21 @@ h1{
   margin-bottom: 3px;
 }
 button{
+  background: none;
+  box-sizing: none;
+  outline: none;
   background-color: var(--highlight);
   font-size: 2rem;
   border-color: var(--highlight);
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+button:active{
+  box-shadow: none;
+  transform: none;
+}
+.buttons{
+  background-color: var(--third);
+  padding: 1;
 }

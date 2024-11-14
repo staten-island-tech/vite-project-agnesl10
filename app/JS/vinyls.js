@@ -44,7 +44,7 @@ const vinylRecords = [
     genre: "Pop",
     releaseYear: 2020,
     price: 27.99,
-    imageUrl: "",
+    imageUrl: "https://m.media-amazon.com/images/I/41ADPXLGixL._UF1000,1000_QL80_.jpg",
     altText: "",
   },
   {
@@ -53,7 +53,7 @@ const vinylRecords = [
     genre: "Pop",
     releaseYear: 2012,
     price: 26.99,
-    imageUrl: "",
+    imageUrl: "https://flyingout.co.nz/cdn/shop/products/LanaDelRey-BornToDie2xLP_VinylRecord_1024x1024_2x_4335ddce-543c-4bee-9615-8943fa0bb575.jpg?v=1690920913",
     altText: "",
   },
   {
@@ -62,7 +62,7 @@ const vinylRecords = [
     genre: "Indie Rock",
     releaseYear: 1998,
     price: 23.99,
-    imageUrl: "",
+    imageUrl: "https://steadfastrecords.net/cdn/shop/products/neutral-milk-hotel-in-the-aeroplane-over-the-sea-lp-950675.jpg?v=1710949158",
     altText: "",
   },
   {
@@ -71,7 +71,7 @@ const vinylRecords = [
     genre: "Rock",
     releaseYear: 2006,
     price: 24.99,
-    imageUrl: "",
+    imageUrl: "https://vinyl.com/cdn/shop/files/wmcstore2023_product_template_7b1bc26b-cdf4-4503-bb9f-79582a16650d.webp?v=1724148704",
     altText: "",
   },
   {
@@ -80,7 +80,7 @@ const vinylRecords = [
     genre: "Indie Folk",
     releaseYear: 2020,
     price: 28.99,
-    imageUrl: "",
+    imageUrl: "https://m.media-amazon.com/images/I/617oudVIaRL._UF1000,1000_QL80_.jpg",
     altText: "",
   },
   {
@@ -89,7 +89,7 @@ const vinylRecords = [
     genre: "R&B",
     releaseYear: 2012,
     price: 26.99,
-    imageUrl: "",
+    imageUrl: "https://img.merchbar.com/product/vinylized/upc/53/602527755304.jpg?q=40&w=1400",
     altText: "",
   },
   {
@@ -98,7 +98,7 @@ const vinylRecords = [
     genre: "R&B",
     releaseYear: 2016,
     price: 29.99,
-    imageUrl: "",
+    imageUrl: "https://drownedworldrecords.com/cdn/shop/products/Beyonce---Lemonade-_Yellow-Colored-Vinyl-2LP_-1668826570.jpg?v=1668826572&width=1445",
     altText: "",
   },
   {
@@ -107,7 +107,7 @@ const vinylRecords = [
     genre: "Alternative",
     releaseYear: 2005,
     price: 24.99,
-    imageUrl: "",
+    imageUrl: "https://flyingout.co.nz/cdn/shop/products/gorillaz_demon_days_vinyl.jpg?v=1628740462",
     altText: "",
   },
   {
@@ -116,7 +116,7 @@ const vinylRecords = [
     genre: "Hip Hop",
     releaseYear: 2016,
     price: 27.99,
-    imageUrl: "",
+    imageUrl: "https://saintmarierecords.com/cdn/shop/products/kanye-west-the-life-of-pablo-00000011519-vinyl-428614_800x.jpg?v=1687240282",
     altText: "",
   },
   {
@@ -125,7 +125,7 @@ const vinylRecords = [
     genre: "Soul",
     releaseYear: 2006,
     price: 25.99,
-    imageUrl: "",
+    imageUrl: "https://www.bluescentric.com/images/product/large/5429.jpg",
     altText: "",
   },
   {
@@ -134,7 +134,7 @@ const vinylRecords = [
     genre: "Indie Rock",
     releaseYear: 2010,
     price: 24.99,
-    imageUrl: "",
+    imageUrl: "https://residentvinyl.com/cdn/shop/files/arcadefirethesuburbs.png?v=1720394451",
     altText: "",
   },
   {
@@ -143,7 +143,7 @@ const vinylRecords = [
     genre: "Hip Hop",
     releaseYear: 2012,
     price: 29.99,
-    imageUrl: "",
+    imageUrl: "https://m.media-amazon.com/images/I/51q8wNf99GL._UF1000,1000_QL80_.jpg",
     altText: "",
   },
   {
@@ -152,7 +152,7 @@ const vinylRecords = [
     genre: "Rock",
     releaseYear: 1968,
     price: 27.99,
-    imageUrl: "",
+    imageUrl: "https://m.media-amazon.com/images/I/81ULBt1jLsL._UF1000,1000_QL80_.jpg",
     altText: "",
   },
   {
@@ -161,7 +161,7 @@ const vinylRecords = [
     genre: "Pop",
     releaseYear: 2013,
     price: 26.99,
-    imageUrl: "",
+    imageUrl: "https://vinyl.com/cdn/shop/files/Justin_Timberlake_-_The_20_20_Experience.jpg?v=1714730613",
     altText: "",
   },
   {
@@ -170,7 +170,7 @@ const vinylRecords = [
     genre: "Hip Hop",
     releaseYear: 2015,
     price: 28.99,
-    imageUrl: "",
+    imageUrl: "https://external-preview.redd.it/92BaMO6MgYWNGRHVH-2EPe-mDfEUWQTEckNR4TBPnRU.jpg?auto=webp&s=e1d772fa8eeb301daf046af3831bb30b73f10d79",
     altText: "",
   },
   {
@@ -179,7 +179,7 @@ const vinylRecords = [
     genre: "Indie Rock",
     releaseYear: 2014,
     price: 24.99,
-    imageUrl: "",
+    imageUrl: "https://img.merchbar.com/product/crop/1616/1290218/1WBX56-1664304324-1500x1500-1664303858-71srQIedMUL._SL1500_.jpg?q=40&w=1400",
     altText: "",
   },
 ];

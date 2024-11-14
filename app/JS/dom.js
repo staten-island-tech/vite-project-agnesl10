@@ -7,5 +7,7 @@ const DOMSelectors = {
   price: document.querySelector(".price"),
   mode: document.querySelector(".btnlight"),
   relfilter: document.querySelector(".btnrel"),
+  pops: document.querySelector(".btnpop"),
+  rock: document.querySelector(".btnrock"),
 };
 export { DOMSelectors };
