@@ -33,30 +33,39 @@ function darkMode() {
   });
 }
 darkMode();
+
 function clearCards() {
-  document.container.innerHTML = "";
-  createCards(record);
+  DOMSelectors.container.innerHTML = "";
 }
 
+function addCard(filteredVinyls) {
+  clearCards();
+  filteredVinyls.forEach((record) => createCards(record));
+}
+function allCards() {
+  DOMSelectors.all.addEventListener("click", function (record) {
+    addCard(vinylRecords);
+  });
+}
 function filterByYear() {
   DOMSelectors.relfilter.addEventListener("click", function (record) {
-    const x = vinylRecords.filter((record) => record.releaseYear < 2000)
-    clearCards(x);
+    const x = vinylRecords.filter((record) => record.releaseYear < 2000);
+    addCard(x);
   });
 }
 function filterPops() {
-  DOMSelectors.pops.addEventListener("click", function (record){
-    const pop = vinylRecords.filter((record) => record.genre.includes("pop"))
-    clearCards(pop);
-  })
+  DOMSelectors.pops.addEventListener("click", function (record) {
+    const pop = vinylRecords.filter((record) => record.genre.includes("op"));
+    addCard(pop);
+  });
 }
 function filterRock() {
   DOMSelectors.rock.addEventListener("click", function (record) {
-    const rock = vinylRecords.filter((record) => record.genre.includes("rock"))
-    clearCards(rock);
-  })
+    const rock = vinylRecords.filter((record) => record.genre.includes("Rock"));
+    addCard(rock);
+  });
 }
-
+allCards();
 filterByYear();
 filterPops();
 filterRock();

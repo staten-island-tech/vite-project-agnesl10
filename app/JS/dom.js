@@ -6,6 +6,7 @@ const DOMSelectors = {
   image: document.querySelector(".image"),
   price: document.querySelector(".price"),
   mode: document.querySelector(".btnlight"),
+  all: document.querySelector(".btnall"),
   relfilter: document.querySelector(".btnrel"),
   pops: document.querySelector(".btnpop"),
   rock: document.querySelector(".btnrock"),
