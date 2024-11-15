@@ -12,7 +12,7 @@ function createCards(record) {
     <br />
     <h3 class="relartist">Released in ${record.releaseYear} by ${record.artist}</h3>
     <h5 class="genre">${record.genre}</h5>
-    <img class="image" src="${record.imageUrl}" alt="" />
+    <img class="image" src="${record.imageUrl}" alt="${record.altText}" />
     <br />
     <h4 class="price">${record.price}</h4>
     </div>`
